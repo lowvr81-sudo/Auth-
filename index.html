@@ -122,7 +122,7 @@ $("form").addEventListener("submit", async event => {
       const {data, error} = await db.auth.signUp({
         email,
         password,
-        options: { emailRedirectTo: LOOBEE_URL }
+        const LOOBEE_URL = "https://lowvr81-sudo.github.io/loobee/";
       });
 
       if (error) throw error;
